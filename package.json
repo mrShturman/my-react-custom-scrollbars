@@ -1,13 +1,13 @@
 {
-  "name": "react-custom-scrollbars",
+  "name": "my-react-custom-scrollbars",
   "version": "4.2.5",
   "description": "React scrollbars component",
   "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf lib dist",
     "build": "babel src --out-dir lib",
-    "build:umd": "cross-env NODE_ENV=development webpack src/index.js dist/react-custom-scrollbars.js",
-    "build:umd:min": "cross-env NODE_ENV=production webpack src/index.js dist/react-custom-scrollbars.min.js",
+    "build:umd": "cross-env NODE_ENV=development webpack src/index.js dist/my-react-custom-scrollbars.js",
+    "build:umd:min": "cross-env NODE_ENV=production webpack src/index.js dist/my-react-custom-scrollbars.min.js",
     "lint": "eslint src test examples",
     "test": "cross-env NODE_ENV=test karma start",
     "test:watch": "cross-env NODE_ENV=test karma start --auto-watch --no-single-run",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/malte-wessel/react-custom-scrollbars.git"
+    "url": "git+https://github.com/malte-wessel/my-react-custom-scrollbars.git"
   },
   "keywords": [
     "scroll",
@@ -29,9 +29,9 @@
   "author": "Malte Wessel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/malte-wessel/react-custom-scrollbars/issues"
+    "url": "https://github.com/malte-wessel/my-react-custom-scrollbars/issues"
   },
-  "homepage": "https://github.com/malte-wessel/react-custom-scrollbars",
+  "homepage": "https://github.com/malte-wessel/my-react-custom-scrollbars",
   "devDependencies": {
     "babel-cli": "^6.2.0",
     "babel-core": "^6.2.1",

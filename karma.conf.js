@@ -29,7 +29,7 @@ module.exports = function karmaConfig(config) {
             devtool: 'inline-source-map',
             resolve: {
                 alias: {
-                    'react-custom-scrollbars': path.resolve(__dirname, './src')
+                    'my-react-custom-scrollbars': path.resolve(__dirname, './src')
                 }
             },
             module: {

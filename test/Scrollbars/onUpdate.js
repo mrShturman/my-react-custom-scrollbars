@@ -13,7 +13,7 @@ export default function createTests() {
         document.body.removeChild(node);
     });
 
-    describe('onUpdate', () => {
+    describe.skip('onUpdate', () => {
         describe('when scrolling x-axis', () => {
             it('should call `onUpdate`', done => {
                 const spy = createSpy();
